@@ -5,7 +5,7 @@
 ```bash
 npx degit iamplex/ts-starter my-project
 cd my-project
-pnpm i # or use your preferred package manager
+pnpm i
 ```
 
 and then
