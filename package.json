@@ -1,0 +1,41 @@
+{
+  "name": "pkg-name",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "My personal starter for TypeScript",
+  "author": "iamplex <panjing.binary@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/iamplex/pkg-name",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamplex/pkg-name.git"
+  },
+  "bugs": "https://github.com/iamplex/pkg-name/issues",
+  "keywords": [],
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "nr build --watch",
+    "build": "tsup",
+    "lint": "eslint .",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.3",
+    "@antfu/ni": "^0.21.12",
+    "@types/node": "^20.11.6",
+    "eslint": "^8.56.0",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.1"
+  }
+}
