@@ -27,15 +27,17 @@
     "dev": "nr build --watch",
     "build": "tsup",
     "lint": "eslint .",
-    "test": "vitest"
+    "test": "vitest",
+    "up": "taze major -I"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.6.3",
+    "@antfu/eslint-config": "^2.11.6",
     "@antfu/ni": "^0.21.12",
-    "@types/node": "^20.11.6",
-    "eslint": "^8.56.0",
-    "tsup": "^8.0.1",
-    "typescript": "^5.3.3",
-    "vitest": "^1.2.1"
+    "@types/node": "^20.12.2",
+    "eslint": "^8.57.0",
+    "taze": "^0.13.3",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3",
+    "vitest": "^1.4.0"
   }
 }
